@@ -27,4 +27,4 @@ The MatConvNet toolbox can be obtained from https://github.com/vlfeat/matconvnet
 
 Clone the GIT repository: git clone https://github.com/nnli2026/HOT_TCF_FLSP.git
 
-Run the demo script to test the tracker: demo_TCF_FLSP_HOTC2020.m/demo_TCF_FLSP_IMEC25.m
+Run the demo script to test the tracker: (1) demo_TCF_FLSP_HOTC2020.m; (2)demo_TCF_FLSP_IMEC25.m
