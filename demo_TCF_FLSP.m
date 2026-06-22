@@ -42,7 +42,7 @@ dlmwrite(filename, res, 'delimiter', '\t', 'precision', 6);
 distance_precision_threshold=0:50;
 PASCAL_threshold=0:0.02:1;
 [distance_rec, PASCAL_rec, average_cle_rec]= computeMetric(res,ground_truth,distance_precision_threshold,PASCAL_threshold);
-% Êä³öAUC, DP score
+% AUC, DP score
 res = [mean(mean(PASCAL_rec(2:51))) ,mean(distance_rec(21))];
 display(['AUC:   '   num2str(res(1))   '         DP(20):   '   num2str(res(2))]);
 display(['FPS:   '   num2str(results.fps)]);
